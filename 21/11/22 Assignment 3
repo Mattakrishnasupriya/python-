@@ -1,0 +1,9 @@
+a=int(input('\nEnter first number:'))
+b=int(input('Enter second number:'))
+c=a*b
+print('multiplication of two numbers:',c)
+
+OUTPUT:
+Enter first number:4
+Enter second number:7
+multiplication of two numbers: 28
