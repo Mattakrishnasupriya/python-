@@ -1,0 +1,13 @@
+a=int(input());
+b=int(input());
+a=a+b;
+b=a-b;
+a=a-b;
+print("a value:",a);
+print("b value:",b);
+
+output:
+2
+3
+a value: 3
+b value: 2
