@@ -1,0 +1,7 @@
+a=int(input('\nEnter first number:'))
+b=int(input('\nEnter second number:'))
+c=a+b
+print('Sum of two numbers:',c)
+ouput:Enter first number:4
+Enter second number:7
+Sum of two numbers: 11
