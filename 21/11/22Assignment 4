@@ -1,0 +1,9 @@
+a=int(input('\nEnter first number:'))
+b=int(input('Enter second number:'))
+c=a/b
+print('Division of two numbers:',c)
+
+OUTPUT:
+Enter first number:28
+Enter second number:7
+Division of two numbers: 4.0
