@@ -1,0 +1,16 @@
+n=int(input('enter number:'))
+L=list(map(int,input().split()))
+nl=[]
+zl=[]
+for i in range(0,n):
+    if L[i]>0:
+        nl.append(L[i])
+    else:
+        zl.append(L[i])
+L=nl+zl
+print(L)
+
+output:
+enter number:8
+-5 3 -7 1 -6 8 -2 9
+[3, 1, 8, 9, -5, -7, -6, -2]
