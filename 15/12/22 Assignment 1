@@ -1,0 +1,15 @@
+n=int(input('enter number:'))
+L=list(map(int,input().split()))
+nl=[]
+zl=[]
+for i in range(0,n):
+    if L[i]%2==0:
+        nl.append(L[i])
+    else:
+        zl.append(L[i])
+        
+        
+output:
+enter number:8
+1 2 3 4 5 6 7 8 
+[2, 4, 6, 8, 1, 3, 5, 7]
